@@ -16,7 +16,7 @@ const app = express();
 // app.use('/api', myApi);
 const router = express.Router();
 
-router.get('/', cors(), (req, res) =>
+router.get('/providers', cors(), (req, res) =>
   res.json({
     status: 200,
     message: 'providers',
