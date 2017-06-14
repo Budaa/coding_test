@@ -6,7 +6,7 @@ import { getProvidersSuccess, getProvidersFailure } from './actions';
 import request from '../../utils/request';
 
 export function* getProvidersAttempt() {
-  const requestURL = 'http://localhost:8080/api';
+  const requestURL = '/api/providers';
 
   try {
     const response = yield call(request, requestURL);
