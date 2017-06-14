@@ -1,0 +1,4 @@
+
+export const GET_PROVIDERS_ATTEMPT = 'truelayer/Home/GET_PROVIDERS_ATTEMPT';
+export const GET_PROVIDERS_SUCCESS = 'truelayer/Home/GET_PROVIDERS_SUCCESS';
+export const GET_PROVIDERS_FAILURE = 'truelayer/Home/GET_PROVIDERS_FAILURE';
