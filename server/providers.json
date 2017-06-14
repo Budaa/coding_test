@@ -1,0 +1,255 @@
+[{
+        "connectorId": "barclays",
+        "displayName": "Barclays",
+        "logoURL": "~/images/logos/barclays.png",
+        "authMethod": "membershipNumber",
+        "fields": [{
+                "id": "lastName",
+                "displayName": "Last Name",
+                "isPassword": false,
+                "type": "text"
+            },
+            {
+                "id": "membershipNumber",
+                "displayName": "Membership number",
+                "isPassword": false,
+                "type": "text",
+                "tip": "You will have received this number in the post when you first signed up to Online Banking"
+            },
+            {
+                "id": "passCode",
+                "displayName": "Pass Code",
+                "isPassword": true,
+                "type": "password",
+                "tip": "A 5 digits number used if PINsentry is not enabled"
+            },
+            {
+                "id": "memorableWord",
+                "displayName": "Memorable Word",
+                "isPassword": true,
+                "type": "password",
+                "tip": "A 6 to 8 characters long word used if PINsentry is not enabled"
+            }
+        ]
+    },
+    {
+        "connectorId": "hsbc",
+        "displayName": "HSBC",
+        "logoURL": "~/images/logos/hsbc.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "userName",
+                "displayName": "Username",
+                "isPassword": false,
+                "type": "text",
+                "tip": "Either your internet bank number or a unique username you created"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password"
+            },
+            {
+                "id": "memorableAnswer",
+                "displayName": "Memorable Answer",
+                "isPassword": false,
+                "type": "text",
+                "tip": "The memorable answer you use to log in. i.e. Memorable restaurant"
+            }
+        ]
+    },
+    {
+        "connectorId": "lloyds",
+        "displayName": "Lloyds",
+        "logoURL": "~/images/logos/lloyds.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "userId",
+                "displayName": "User Id",
+                "isPassword": false,
+                "type": "text",
+                "tip": "It should be 9 to 30 characters long"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password",
+                "tip": "It should 6 to 20 characters long. It contains at least 3 letters and 1 number."
+            },
+            {
+                "id": "memorableWord",
+                "displayName": "Memorable Word",
+                "isPassword": true,
+                "type": "password",
+                "tip": "6 to 15 character. It contains both letter and numbers."
+            }
+        ]
+    },
+    {
+        "connectorId": "halifax",
+        "displayName": "Halifax",
+        "logoURL": "~/images/logos/halifax.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "userId",
+                "displayName": "User Id",
+                "isPassword": false,
+                "type": "text",
+                "tip": "It should be 9 to 30 characters long"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password",
+                "tip": "It should 6 to 20 characters long. It contains at least 3 letters and 1 number."
+            },
+            {
+                "id": "memorableWord",
+                "displayName": "Memorable Word",
+                "isPassword": true,
+                "type": "password",
+                "tip": "6 to 15 characters long. It contains both letter and numbers."
+            }
+        ]
+    },
+    {
+        "connectorId": "natwest",
+        "displayName": "Natwest",
+        "logoURL": "~/images/logos/natwest.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "customerNumber",
+                "displayName": "Customer Number",
+                "isPassword": false,
+                "type": "number",
+                "tip": "This is your date of birth (ddmmyy) followed by your unique number which identifies you to the bank"
+            },
+            {
+                "id": "pin",
+                "displayName": "Pin",
+                "isPassword": true,
+                "type": "password",
+                "tip": "A 4 digits number"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password",
+                "tip": "6 to 20 characters long. It contains both letter and numbers."
+            }
+        ]
+    },
+    {
+        "connectorId": "rbs",
+        "displayName": "RBS England and Wales",
+        "logoURL": "~/images/tec/rbs.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "customerNumber",
+                "displayName": "Customer Number",
+                "isPassword": false,
+                "type": "number",
+                "tip": "This is your date of birth (ddmmyy) followed by your unique number which identifies you to the bank"
+            },
+            {
+                "id": "pin",
+                "displayName": "Pin",
+                "isPassword": true,
+                "type": "password",
+                "tip": "A 4 digits number"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password",
+                "tip": "6 to 20 characters long. It contains both letter and numbers"
+            }
+        ]
+    },
+    {
+        "connectorId": "rbs-digital",
+        "displayName": "RBS Scotland",
+        "logoURL": "~/images/logos/rbs-digital.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "customerNumber",
+                "displayName": "Customer Number",
+                "isPassword": false,
+                "type": "number",
+                "tip": "This is your date of birth (ddmmyy) followed by your unique number which identifies you to the bank"
+            },
+            {
+                "id": "pin",
+                "displayName": "Pin",
+                "isPassword": true,
+                "type": "password",
+                "tip": "A 4 digits number"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password",
+                "tip": "6 to 20 characters long. It contains both letter and numbers"
+            }
+        ]
+    }, {
+        "connectorId": "santander",
+        "displayName": "Santander",
+        "logoURL": "~/images/logos/santander.png",
+        "authMethod": "password",
+        "fields": [{
+                "id": "personalId",
+                "displayName": "Personal Id",
+                "isPassword": false,
+                "type": "number"
+            },
+            {
+                "id": "password",
+                "displayName": "Password",
+                "isPassword": true,
+                "type": "password"
+            },
+            {
+                "id": "securityNumber",
+                "displayName": "Security Number",
+                "isPassword": true,
+                "type": "password"
+            }
+        ],
+        "fieldCollections": [{
+            "id": "securityQuestions",
+            "displayName": "Security Questions",
+            "fields": [{
+                    "id": "Place of Birth",
+                    "displayName": "Place of Birth",
+                    "isPassword": false,
+                    "type": "text"
+                },
+                {
+                    "id": "Name of first school",
+                    "displayName": "Name of first school",
+                    "isPassword": false,
+                    "type": "text"
+                },
+                {
+                    "id": "Name of secondary school",
+                    "displayName": "Name of secondary school",
+                    "isPassword": false,
+                    "type": "text"
+                },
+                {
+                    "id": "Father's middle name",
+                    "displayName": "Father's middle name",
+                    "isPassword": false,
+                    "type": "text"
+                }
+            ]
+        }]
+    }
+]
