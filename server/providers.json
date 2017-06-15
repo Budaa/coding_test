@@ -172,7 +172,7 @@
         ]
     },
     {
-        "connectorId": "rbs-digital",
+        "connectorId": "rbs",
         "displayName": "RBS Scotland",
         "logoURL": "~/images/logos/rbs-digital.png",
         "authMethod": "password",
