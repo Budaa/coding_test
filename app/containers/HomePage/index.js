@@ -16,9 +16,11 @@ class HomePage extends React.Component { // eslint-disable-line react/prefer-sta
   componentWillMount() {
     this.props.getProvidersAttempt()
   }
+
   render() {
     const { providers, permisions, appName } = this.props;
     const ContentView = <Prompts.Access {...{ appName, permisions }} />;
+    
     console.log(this.props)
     return (
       <div>
