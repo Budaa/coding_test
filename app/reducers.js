@@ -22,6 +22,11 @@ const routeInitialState = fromJS({
   locationBeforeTransitions: null,
 });
 
+const clientInitialState = fromJS({
+  appName: 'DemoApp',
+  permisions: ['Identification', 'Personal finance manager'],
+});
+
 /**
  * Merge route into the global application state
  */
@@ -37,6 +42,9 @@ function routeReducer(state = routeInitialState, action) {
   }
 }
 
+function clientReducer(state = clientInitialState) {
+  return state;
+}
 /**
  * Creates the main reducer with the asynchronously loaded ones
  */
@@ -45,5 +53,6 @@ export default function createReducer(asyncReducers) {
     route: routeReducer,
     language: languageProviderReducer,
     ...asyncReducers,
+    client: clientReducer,
   });
 }
